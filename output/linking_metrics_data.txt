@@ -1,0 +1,14 @@
+Amazon Instant Video
+Ratio Threshold Used + Median Favorable Rating: 0.6153846153846154
+Number of reviews to be featurized: 15065
+
+Sports And Outdoors
+Ratio Threshold Used + Median Favorable Rating: 0.9
+Number of reviews to be featurized: 127474
+
+Toys And Games
+
+Food
+
+Apps For Android
+

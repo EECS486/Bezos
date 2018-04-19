@@ -1,0 +1,90 @@
+Number of features: 23
+Logistic Regression Model Results:
+Using l1 Regularization
+Score for training set
+0.7891891891891892
+Null score for training set
+0.4995732574679943
+Coeficents for training set:
+Predicted Labels:
+[1 0 0 ... 0 1 0]
+Predicted probabilities for each label:
+[[0.25057515 0.74942485]
+ [0.83570822 0.16429178]
+ [0.76999589 0.23000411]
+ ...
+ [0.74147103 0.25852897]
+ [0.08128298 0.91871702]
+ [0.59812047 0.40187953]]
+Print accuracy score:
+0.7960176991150443
+Print roc_auc_score:
+0.8553208033295767
+Confusion matrix:
+[[1839  354]
+ [ 568 1759]]
+Classification report:
+             precision    recall  f1-score   support
+
+          0       0.76      0.84      0.80      2193
+          1       0.83      0.76      0.79      2327
+
+avg / total       0.80      0.80      0.80      4520
+
+Using l2 Regularization
+Score for training set
+0.7890943575154101
+Null score for training set
+0.4995732574679943
+Coeficents for training set:
+Predicted Labels:
+[1 0 0 ... 0 1 0]
+Predicted probabilities for each label:
+[[0.25072204 0.74927796]
+ [0.8346601  0.1653399 ]
+ [0.77001282 0.22998718]
+ ...
+ [0.74053279 0.25946721]
+ [0.08129893 0.91870107]
+ [0.59828209 0.40171791]]
+Print accuracy score:
+0.7960176991150443
+Print roc_auc_score:
+0.8552994438098642
+Confusion matrix:
+[[1839  354]
+ [ 568 1759]]
+Classification report:
+             precision    recall  f1-score   support
+
+          0       0.76      0.84      0.80      2193
+          1       0.83      0.76      0.79      2327
+
+avg / total       0.80      0.80      0.80      4520
+
+Random Forest:
+Feature Importantces for training set:
+Predicted Labels:
+[1 0 0 ... 0 1 0]
+Predicted probabilities for each label:
+[[0.192 0.808]
+ [0.77  0.23 ]
+ [0.728 0.272]
+ ...
+ [0.684 0.316]
+ [0.14  0.86 ]
+ [0.728 0.272]]
+Out-of-bag score estimate:0.7900426742532005
+Mean accuracy score: 0.7993362831858407
+Confusion matrix:
+[[1828  365]
+ [ 542 1785]]
+Predicted probabilities for each label:
+[[0.2176308  0.7823692 ]
+ [0.8972182  0.10278176]
+ [0.85227287 0.1477271 ]
+ ...
+ [0.7944857  0.20551428]
+ [0.07053024 0.92946976]
+ [0.81064594 0.18935403]]
+Accuracy: 81.22%

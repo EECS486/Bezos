@@ -1,0 +1,102 @@
+   Intercept  overallRating  readability  reviewAge  reviewedAlsoBought  \
+0  -1.525695       0.434307     0.006313   0.000207                 0.0   
+
+   reviewedAlsoViewed  reviewedAlsoBoughtTogether  NumberOfUserReviews  \
+0           -0.147666                    0.028128             0.013011   
+
+   reviewDeviationFromMean  reviewProductMean  reviewLength  numberStopWords  \
+0                -0.001978           0.229393      0.003579        -0.005912   
+
+   numberOfPunctuations  averageWordLength  averageSentanceLength  \
+0              -0.00048           0.154689              -0.001949   
+
+   numberExclamationPoints  numberQuestionMarks  namedEntities  numberNouns  \
+0                -0.041277            -0.003743      -0.028695    -0.005724   
+
+   numberPassiveVerbs  numberActiveVerbs  numberAdjectives  numberPronous  
+0            0.008588           0.012133          0.013515      -0.007407  
+   Intercept  overallRating  readability  reviewAge  reviewedAlsoBought  \
+0  -1.722839       0.434058     0.005535   0.000207             0.00578   
+
+   reviewedAlsoViewed  reviewedAlsoBoughtTogether  NumberOfUserReviews  \
+0           -0.150792                     0.03308             0.012951   
+
+   reviewDeviationFromMean  reviewProductMean  reviewLength  numberStopWords  \
+0                -0.001976            0.22932      0.003779        -0.006025   
+
+   numberOfPunctuations  averageWordLength  averageSentanceLength  \
+0             -0.000488           0.151209              -0.001932   
+
+   numberExclamationPoints  numberQuestionMarks  namedEntities  numberNouns  \
+0                -0.022514            -0.022514      -0.028673    -0.005749   
+
+   numberPassiveVerbs  numberActiveVerbs  numberAdjectives  numberPronous  
+0            0.008584           0.012136          0.013516      -0.007531  
+   Intercept  overallRating  readability  reviewAge  reviewedAlsoBought  \
+0        0.0       0.102352     0.069424   0.076952            0.000331   
+
+   reviewedAlsoViewed  reviewedAlsoBoughtTogether  NumberOfUserReviews  \
+0            0.001825                      0.0016              0.01148   
+
+   reviewDeviationFromMean  reviewProductMean  reviewLength  numberStopWords  \
+0                 0.070843           0.089145      0.062502         0.056138   
+
+   numberOfPunctuations  averageWordLength  averageSentanceLength  \
+0              0.040889           0.066144               0.063097   
+
+   numberExclamationPoints  numberQuestionMarks  namedEntities  numberNouns  \
+0                 0.014498             0.014533       0.032424     0.050714   
+
+   numberPassiveVerbs  numberActiveVerbs  numberAdjectives  numberPronous  
+0            0.037823           0.040034           0.05308       0.044171  
+   Intercept  overallRating  readability  reviewAge  reviewedAlsoBought  \
+0  -1.802728       0.431549     0.005418   0.000225            -0.23898   
+
+   reviewedAlsoViewed  reviewedAlsoBoughtTogether  NumberOfUserReviews  \
+0           -0.116411                    0.016679             0.012132   
+
+   reviewDeviationFromMean  reviewProductMean  reviewLength  numberStopWords  \
+0                -0.002153           0.226798      0.004331         -0.00649   
+
+   numberOfPunctuations  averageWordLength  averageSentanceLength  \
+0              0.000016           0.199558              -0.002103   
+
+   numberExclamationPoints  numberQuestionMarks  namedEntities  numberNouns  \
+0                      0.0            -0.047168      -0.030216    -0.006473   
+
+   numberPassiveVerbs  numberActiveVerbs  numberAdjectives  numberPronous  
+0             0.00595           0.009471          0.012856      -0.007853  
+   Intercept  overallRating  readability  reviewAge  reviewedAlsoBought  \
+0  -1.737875       0.430859     0.006511   0.000223           -0.127074   
+
+   reviewedAlsoViewed  reviewedAlsoBoughtTogether  NumberOfUserReviews  \
+0           -0.121836                    0.005623              0.01239   
+
+   reviewDeviationFromMean  reviewProductMean  reviewLength  numberStopWords  \
+0                -0.002149           0.226654      0.004242        -0.006633   
+
+   numberOfPunctuations  averageWordLength  averageSentanceLength  \
+0             -0.000146           0.152273              -0.002037   
+
+   numberExclamationPoints  numberQuestionMarks  namedEntities  numberNouns  \
+0                -0.023568            -0.023568      -0.030231    -0.006499   
+
+   numberPassiveVerbs  numberActiveVerbs  numberAdjectives  numberPronous  
+0            0.006006           0.009261          0.013046      -0.008638  
+   Intercept  overallRating  readability  reviewAge  reviewedAlsoBought  \
+0        0.0       0.102883     0.068594   0.077808            0.000417   
+
+   reviewedAlsoViewed  reviewedAlsoBoughtTogether  NumberOfUserReviews  \
+0            0.001892                    0.001642             0.011595   
+
+   reviewDeviationFromMean  reviewProductMean  reviewLength  numberStopWords  \
+0                 0.070912           0.087414      0.062104         0.056372   
+
+   numberOfPunctuations  averageWordLength  averageSentanceLength  \
+0              0.041403           0.066166               0.063119   
+
+   numberExclamationPoints  numberQuestionMarks  namedEntities  numberNouns  \
+0                 0.014566             0.014538       0.032519     0.050782   
+
+   numberPassiveVerbs  numberActiveVerbs  numberAdjectives  numberPronous  
+0            0.037987           0.039665          0.053264       0.044358  

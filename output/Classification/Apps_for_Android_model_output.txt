@@ -1,0 +1,90 @@
+Number of features: 22
+Logistic Regression Model Results: 
+Using l1 Regularization
+Score for training set
+0.6777446116063852
+Null score for training set
+0.5176451796463976
+Coeficents for training set: 
+Predicted Labels: 
+[1 1 1 ... 0 1 0]
+Predicted probabilities for each label: 
+[[0.39603104 0.60396896]
+ [0.38647894 0.61352106]
+ [0.38537261 0.61462739]
+ ...
+ [0.64596796 0.35403204]
+ [0.40540053 0.59459947]
+ [0.74496705 0.25503295]]
+Print accuracy score: 
+0.6738877242021896
+Print roc_auc_score: 
+0.7068469542215227
+Confusion matrix: 
+[[12590  8104]
+ [ 5896 16340]]
+Classification report: 
+             precision    recall  f1-score   support
+
+          0       0.68      0.61      0.64     20694
+          1       0.67      0.73      0.70     22236
+
+avg / total       0.67      0.67      0.67     42930
+
+Using l2 Regularization
+Score for training set
+0.6777845441204364
+Null score for training set
+0.5176451796463976
+Coeficents for training set: 
+Predicted Labels: 
+[1 1 1 ... 0 1 0]
+Predicted probabilities for each label: 
+[[0.39611936 0.60388064]
+ [0.38648927 0.61351073]
+ [0.38533964 0.61466036]
+ ...
+ [0.64604557 0.35395443]
+ [0.40523548 0.59476452]
+ [0.74507731 0.25492269]]
+Print accuracy score: 
+0.673817843000233
+Print roc_auc_score: 
+0.706849312139144
+Confusion matrix: 
+[[12588  8106]
+ [ 5897 16339]]
+Classification report: 
+             precision    recall  f1-score   support
+
+          0       0.68      0.61      0.64     20694
+          1       0.67      0.73      0.70     22236
+
+avg / total       0.67      0.67      0.67     42930
+
+Random Forest: 
+Feature Importantces for training set: 
+Predicted Labels: 
+[1 1 1 ... 0 0 0]
+Predicted probabilities for each label: 
+[[0.318 0.682]
+ [0.43  0.57 ]
+ [0.438 0.562]
+ ...
+ [0.666 0.334]
+ [0.578 0.422]
+ [0.726 0.274]]
+Out-of-bag score estimate:0.6844832233525342
+Mean accuracy score: 0.6813650128115537
+Confusion matrix: 
+[[13177  7517]
+ [ 6162 16074]]
+ Predicted probabilities for each label:
+[[0.45484966 0.54515034]
+ [0.5229672  0.47703278]
+ [0.4134676  0.5865324 ]
+ ...
+ [0.6700009  0.3299991 ]
+ [0.49871242 0.5012876 ]
+ [0.7582718  0.24172819]]
+Accuracy: 69.28%
