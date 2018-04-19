@@ -16,7 +16,7 @@ Go to your directory where you cloned the repository
 
 `$ cd Bezos`
 
-`$ virtualenv env`
+`$ virtualenv -p python3 env`
 
 `$ source env/bin/activate`
 
