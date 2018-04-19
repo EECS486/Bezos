@@ -75,7 +75,7 @@ class Review:
 
 
 # Read in review data if there is no pre calculated file
-def readInReviewRaw(fileName, preCalcFileName, minVoteThreshold, minReviewLength):
+def readInReviewData(fileName, minVoteThreshold, minReviewLength):
     reviewsList = []
     dataStore = []
 
