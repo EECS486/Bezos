@@ -68,10 +68,14 @@ https://drive.google.com/file/d/1QCZXLE9F9BqI2k2y3APi4tPItdREnhMS/view?usp=shari
 - bigram: creates a bigram model instead of a unigram model
 
 ## Classification Models 
-1. In linking_and_metrics.py 
+1. Install Stanford CoreNLP https://stanfordnlp.github.io/CoreNLP/index.html
+2. Go To Directory Where Installed Stanford CoreNLP
+3. Follow Instructions to Run Stanford CoreNLP on Port 9000
+https://stanfordnlp.github.io/CoreNLP/corenlp-server.html#getting-started
+4. In linking_and_metrics.py 
 - Set category to the category you want to process. ie: 'Grocery_and_Gourmet_Food'
-2. Run data_analytics_erneh.py to generate statics on the whole review set 
-2. In modelGeneration.py
+5. Run data_analytics_erneh.py to generate statics on the whole review set 
+6. In modelGeneration.py
 - Set category to the category you want to process. ie: 'Grocery_and_Gourmet_Food'
 - Note: pkl files must be generated for said category 
 
