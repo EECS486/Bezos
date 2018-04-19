@@ -27,10 +27,10 @@ def main():
             review_list, metadata_dictionary = pickle.load(f)
     else:
         if category is not 'Apps_for_Android':
-            review_list = jsonReviewRead_vBlackfyre.readInReviewRaw('reviews_Grocery_and_Gourmet_Food.json', '', vote_thresh, text_thresh)
+            review_list = jsonReviewRead_vBlackfyre.readInReviewRaw('reviews_' + category + '.json', '', vote_thresh, text_thresh)
         else:
             review_list = reviewdataNB.readInReviewRaw('reviews_Apps_for_Android.json', '', vote_thresh, text_thresh)
-        metadata_dictionary = metadata.readInMetadata('meta_Grocery_and_Gourmet_Food.json')
+        metadata_dictionary = metadata.readInMetadata('meta_' + category + '.json')
         with open(category + '_review_list_metadata' + '.pkl', 'wb') as f:
             pickle.dump([review_list, metadata_dictionary], f)
 

@@ -21,12 +21,10 @@ Go to your directory where you cloned the repository
 `$ source env/bin/activate`
 
 #### Install the requirements
-    - Make sure in home directory 
+- Make sure in home directory 
 
 `pip install -r requirements.txt`
 
-#### Deactivate the Virtual ENV
-`$ deactivate`
 
 ##### Extra: If You Want to Install A New Package
 `$ source bin/activate`
