@@ -3,7 +3,7 @@
 #### Clone the repository 
 Make a directory 
 
-`git clone https://github.com/EECS486/Project.git`
+`git clone https://github.com/EECS486/Bezos.git`
 
 #### Install Virtual Env 
 Virtual Env acts as a virtual enviornment so that we can virtually install python packages and not overwrite the ones 
@@ -14,7 +14,7 @@ on our system
 #### Create Virtual Env and Enter it 
 Go to your directory where you cloned the repository 
 
-`$ cd Project`
+`$ cd Bezos`
 
 `$ virtualenv env`
 
@@ -39,23 +39,24 @@ Go to your directory where you cloned the repository
 
 ### File + Folder Descriptions
 
-data_analytics_erneh.py - displays analytics for the review and metadata data 
-jsonReviewRead.py - review parser for classification models
-jsonReviewRead_vBlackfyre.py - review parser for classification models 
-metadata.py - metadata parser for classification models
-naivebayes.py - naivebayes model classifer 
-porter.py - porter stemmer 
-reviewdata.py - reviewer parser for naive bayes model
-reviewdataNB.py - review parser for naive bayes model 
-linking_and_metrics.py - links the metadata and review data and calculates analytics for each review
-modelGeneration.py - generates each classification model and projects helpfulness of amazon reviews 
+1. data_analytics_erneh.py - displays analytics for the review and metadata data 
+2. jsonReviewRead.py - review parser for classification models
+3. jsonReviewRead_vBlackfyre.py - review parser for classification models 
+4. metadata.py - metadata parser for classification models
+5. naivebayes.py - naivebayes model classifer 
+6. porter.py - porter stemmer 
+7. reviewdata.py - reviewer parser for naive bayes model
+8. reviewdataNB.py - review parser for naive bayes model 
+9. linking_and_metrics.py - links the metadata and review data and calculates analytics for each review
+10. modelGeneration.py - generates each classification model and projects helpfulness of amazon reviews 
 
-output/ - output for naive bayes and classification models
-plots/ - plots for feature importance 
+11. output/ - output for naive bayes and classification models
+12. plots/ - plots for feature importance 
 
 ### Instructions 
 
 1. Download and Extract the contents of this folder into the repository
+https://drive.google.com/file/d/1QCZXLE9F9BqI2k2y3APi4tPItdREnhMS/view?usp=sharing
 - It contains the json review and metadata files used to generate the review data along with pickle files to make the model generation faster
 
 ## Naive Bayes 
@@ -63,7 +64,7 @@ plots/ - plots for feature importance
 2. set the line: params = {"stem": False, "stop": True, "condProb": True, 'bigram': True} to what parameters you want to run the naive bayes with 
 - Stem: stems words
 - stop: remove stop words
-- condProb: generate conditional probabilities 
+- condProb: make sure True
 - bigram: creates a bigram model instead of a unigram model
 
 ## Classification Models 
