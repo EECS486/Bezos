@@ -17,7 +17,7 @@ pandas==0.22.0
 pathlib==1.0.1
 plac==0.9.6
 preshed==1.0.0
-protobuf==3.5.2.post1
+protobuf==3.18.3
 pycorenlp==0.3.0
 pyparsing==2.2.0
 Pyphen==0.9.4
